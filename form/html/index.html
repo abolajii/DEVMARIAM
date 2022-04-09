@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      #formcontainer {
+        background-color: white;
+        height: 100vh;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+      }
+      form {
+        max-width: 400px;
+        height: 600px;
+        width: 100%;
+        margin-top: 50px;
+      }
+      .box-1 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+      }
+
+      label {
+        margin-bottom: 5px;
+        text-transform: capitalize;
+      }
+      button {
+        width: 100%;
+        outline: none;
+        cursor: pointer;
+        border: none;
+        margin-top: 20px;
+        padding: 5px;
+        background-color: red;
+        color: white;
+      }
+
+      button:hover {
+        background-color: brown;
+      }
+      input {
+        padding: 8px;
+        border-radius: 15px;
+        outline: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="formcontainer">
+      <form action="#">
+        <div class="box-1">
+          <label for="firstname">firstname</label>
+          <input type="text" />
+        </div>
+
+        <div class="box-1">
+          <label for="lastname">lastname</label>
+          <input type="text" />
+        </div>
+
+        <div class="box-1">
+          <label for="username">username</label>
+          <input type="text" />
+        </div>
+
+        <div class="box-1">
+          <label for="password">password</label>
+          <input type="password" />
+        </div>
+
+        <div class="box-2">
+          <button>submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

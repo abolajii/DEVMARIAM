@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>navbar</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        align-items: center;
+        background: peachpuff;
+      }
+      ul {
+        list-style: none;
+        display: flex;
+      }
+      li {
+        margin: 0 30px;
+        text-transform: capitalize;
+      }
+      a {
+        text-decoration: none;
+        color: orangered;
+      }
+      .btn {
+        cursor: pointer;
+        outline: none;
+        border: none;
+        padding: 5px 12px;
+        text-transform: capitalize;
+        margin: 0 5px;
+        background-color: transparent;
+      }
+      .btn.btn-outline {
+        border: 1px solid #f6ae2d;
+        color: #f6ae2d;
+      }
+      .btn.btn-outline:hover {
+        background-color: #f6ae2d;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="nav">
+      <div class="box1">
+        <h1>Artato</h1>
+      </div>
+
+      <nav class="navlinks">
+        <ul>
+          <li><a href="#">Artist</a></li>
+          <li><a href="#">Artwork</a></li>
+          <li><a href="#">community</a></li>
+        </ul>
+      </nav>
+
+      <div class="btn-container">
+        <button class="btn">login</button>
+        <button class="btn btn-outline">signup</button>
+      </div>
+    </header>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.btn-secondary {
+  background-color: #5abcb9;
+}
+
+footer {
+  clip-path: polygon(
+    50% 0%,
+    100% 0,
+    88% 42%,
+    93% 65%,
+    100% 100%,
+    32% 100%,
+    0 99%,
+    0% 43%,
+    0 1%
+  );
+  background: #5abcb9;
+  border-top: 2px solid red;
+  margin-top: 0.1rem;
+}
+footer .miper {
+  padding: 0.5rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn.btn-secondary {
+  cursor: pointer;
+  padding: 5px 10px;
+}
+footer .miper form input {
+  padding: 0.8rem 10px;
+  width: 100%;
+  border-radius: 20px;
+  border: 2px solid whitesmoke;
+  outline: none;
+}
+footer .miper h1 {
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: black;
+}
+footer .miper form {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  position: relative;
+}
+
+footer .miper form .btn {
+  border-radius: 0 20px 20px 0;
+  position: absolute;
+  top: 2px;
+  right: 0.1rem;
+  border: none;
+  width: 30%;
+  padding: 0.8rem 1.5rem;
+  background: orange;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  outline: none;
+}
+
+footer .footer-nav {
+  display: flex;
+  padding: 3rem 0;
+  justify-content: space-evenly;
+}
+
+footer .footer-nav h3 {
+  color: black;
+  text-transform: uppercase;
+}
+
+footer .footer-nav h3:hover {
+  color: orangered;
+}
+footer .footer-nav a {
+  color: black;
+}
+
+footer .footer-nav a:hover {
+  color: red;
+}
+
+footer .footer-nav ul li {
+  list-style: none;
+  margin-top: 3rem 0;
+}
+footer h4 {
+  padding: 0.8rem 0;
+  color: white;
+  text-align: center;
+  background: orange;
+}

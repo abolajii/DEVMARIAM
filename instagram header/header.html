@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        margin-left: 100px;
+        margin-right: 300px;
+      }
+      .icon {
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+        cursor: pointer;
+      }
+      .image-icon {
+        width: 150px;
+        height: 150px;
+      }
+
+      .searchbox-input {
+        display: flex;
+        align-items: center;
+        border: 1px solid grey;
+        padding: 9px 12px;
+        border-radius: 400px;
+      }
+      .input-box {
+        border: none;
+        outline: none;
+        width: 350px;
+      }
+      .profilepics {
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="instagram-image-icon">
+          <img class="image-icon" src="./image/instagram.jpg" alt="" />
+        </div>
+
+        <div class="searchbox-input">
+          <img class="icon" src="./image/search.png" alt="" />
+          <input
+            class="input-box"
+            type="text"
+            name="search"
+            placeholder="Search"
+          />
+        </div>
+        <div class="image-list-items">
+          <img class="icon" src="./image/home.png" alt="" />
+          <img class="icon" src="./image/messenger.png" alt="" />
+          <img class="icon" src="./image/add.png" alt="" />
+          <img class="icon" src="./image/compass.png" alt="" />
+          <img class="icon" src="./image/heart.png" alt="" />
+          <img class="icon" src="./image/compass.png" alt="" />
+          <img class="profilepics" src="./image/mariam.jpeg" alt="" />
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
